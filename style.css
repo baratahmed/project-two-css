@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .demo{
     font-size: 100px;
     color: red;
@@ -36,8 +41,7 @@
 
 [class*='col-'] {
     float: left;
-    box-sizing: border-box;
-    border: 1px solid;
+    border: 1px solid gray;
 }
 .rwo:after{
     content: ' ';
